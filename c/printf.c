@@ -23,10 +23,10 @@ int main(int argc, char *argv[]) {
 	// 16 진수 표현
 	printf("%x\n", 123);	// 7b
 	printf("%#x\n", 123);	// 0x7b (앞에 0x 를 붙여준다.)
-	printf("%04x\n", 123);	// 007b
+	printf("%04x\n", 123);	// 007b (4자리 맞추어 0으로 채우기)
 
 	// 항상 부호 붙이기
-	printf("%+d\n", 1);
-	printf("%+d\n", -1);
+	printf("%+d\n", 1);		// +1
+	printf("%+d\n", -1);	// -1
 	return 0;
 }
